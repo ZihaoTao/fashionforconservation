@@ -2,7 +2,7 @@
 * @Author: Zihao Tao
 * @Date:   2018-10-31 23:51:49
 * @Last Modified by:   Zihao Tao
-* @Last Modified time: 2018-12-27 22:42:23
+* @Last Modified time: 2018-12-28 10:54:19
 */
 
 var webpack = require('webpack');
@@ -28,7 +28,8 @@ var getHtmlConfig = function(name, title) {
 var config = {
     entry: {
         'common': ['./src/page/common/index.js'],
-        'index': ['./src/page/index/index.js']
+        'index': ['./src/page/index/index.js'],
+        'camano-island-coffee': ['./src/page/camano-island-coffee/index.js']
     },
     output: {
         path: __dirname + '/dist/',
@@ -71,6 +72,7 @@ var config = {
         new ExtractTextPlugin("css/[name].css"),
         // deal with html template
         new HtmlWebpackPlugin(getHtmlConfig('index', 'Home')),
+        new HtmlWebpackPlugin(getHtmlConfig('camano-island-coffee', 'Camano Island Coffee'))
     ]
 };
 

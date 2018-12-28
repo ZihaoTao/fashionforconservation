@@ -2,13 +2,11 @@
 * @Author: Zihao Tao
 * @Date:   2018-11-06 20:35:36
 * @Last Modified by:   Zihao Tao
-* @Last Modified time: 2018-12-27 15:57:20
+* @Last Modified time: 2018-12-28 11:01:21
 */
 'use strict';
 require('./index.css');
-var _mm = require('util/mm.js');
-var _user = require('service/user-service.js');
-var _cart = require('service/cart-service.js');
+
 // nav
 var nav = {
     init : function(){

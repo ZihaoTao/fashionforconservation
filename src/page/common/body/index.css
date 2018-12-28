@@ -2,13 +2,14 @@
 * @Author: Zihao Tao
 * @Date:   2018-12-27 17:28:53
 * @Last Modified by:   Zihao Tao
-* @Last Modified time: 2018-12-27 19:51:35
+* @Last Modified time: 2018-12-28 11:26:55
 */
 
 @import url('https://fonts.googleapis.com/css?family=Thasadith');
 .container {
     background-color: white;
 }
+
 p {
     text-align: center;
     font-family: 'Thasadith', sans-serif;
@@ -77,7 +78,9 @@ p {
 }
 
 .london{
-    height: 697px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .Title {
