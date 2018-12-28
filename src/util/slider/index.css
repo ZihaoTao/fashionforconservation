@@ -1,0 +1,25 @@
+/*
+* @Author: Zihao Tao
+* @Date:   2018-11-06 14:28:19
+* @Last Modified by:   Zihao Tao
+* @Last Modified time: 2018-12-27 19:52:17
+*/
+/* banner */
+.banner{
+    position: relative; 
+    overflow: auto; 
+}
+.banner li { 
+    list-style: none; 
+}
+.banner ul li { 
+    float: left; 
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .banner-con .banner-arrow {
+        top: 80px;
+    }
+}
