@@ -1,7 +1,7 @@
 {
-  "name": "mmall-fe",
+  "name": "fashionforconservation",
   "version": "1.0.0",
-  "description": "mmall front-end code",
+  "description": "fashionforconservation code",
   "main": "index.js",
   "scripts": {
     "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZihaoTao/mmall-fe.git"
+    "url": "git+https://github.com/ZihaoTao/fashionforconservation.git"
   },
   "author": "Zihao Tao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZihaoTao/mmall-fe/issues"
+    "url": "https://github.com/ZihaoTao/fashionforconservation/issues"
   },
-  "homepage": "https://github.com/ZihaoTao/mmall-fe#readme",
+  "homepage": "https://github.com/ZihaoTao/fashionforconservation#readme",
   "devDependencies": {
     "css-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^1.0.1",
